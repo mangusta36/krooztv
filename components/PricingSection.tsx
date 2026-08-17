@@ -9,8 +9,8 @@ export function PricingSection() {
     <section className="bg-white py-20 md:py-24">
       <Container>
         <div className="mx-auto mb-12 max-w-[850px] text-center">
-          <h2 className="text-3xl font-extrabold leading-tight tracking-[-0.025em] text-[#102f5b] md:text-4xl">krooz tv Offers Affordable Prices and High Quality IPTV Service</h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600">Enjoy your favorite TV channels, movies, series, and sports on the screens you use every day.</p>
+          <h2 className="text-3xl font-extrabold leading-tight tracking-[-0.025em] text-[#102f5b] md:text-4xl">krooz tv IPTV Plans for Flexible Viewing</h2>
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600">Compare monthly and longer subscription options for live TV, sports, movies, and series on compatible devices.</p>
           <Link href="/" className="mt-3 inline-block text-sm font-bold text-[#17835f]">{siteUrl.replace("https://", "")} is the official website for krooz tv</Link>
         </div>
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">

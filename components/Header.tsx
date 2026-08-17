@@ -25,7 +25,10 @@ export function Header() {
         <WhatsAppLink href={clientHelpWhatsAppUrl} className="hidden shrink-0 rounded-lg bg-[#102f5b] px-5 py-3 text-xs font-bold uppercase tracking-[0.06em] text-white shadow-[0_6px_16px_rgba(16,47,91,0.18)] transition duration-200 hover:-translate-y-0.5 hover:bg-[#173f73] lg:inline-flex">
           Client Area
         </WhatsAppLink>
-        <MobileNav />
+        <MobileNav
+          items={[...navItems, ...secondaryNavItems]}
+          clientHelpWhatsAppUrl={clientHelpWhatsAppUrl}
+        />
       </Container>
       <div className="hidden border-t border-slate-100/80 py-3 md:block">
         <nav className="flex justify-center gap-9" aria-label="Secondary">

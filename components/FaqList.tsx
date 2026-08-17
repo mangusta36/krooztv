@@ -9,7 +9,7 @@ export function FaqList() {
   return (
     <section id="faq" className="bg-white py-24">
       <Container>
-        <h2 className="text-center text-3xl font-extrabold tracking-[-0.025em] text-[#102f5b] md:text-4xl">Frequently Asked Questions</h2>
+        <h2 className="text-center text-3xl font-extrabold tracking-[-0.025em] text-[#102f5b] md:text-4xl">Frequently Asked Questions About krooz tv</h2>
         <div className="mt-14 grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr]">
           <div className="overflow-hidden rounded-2xl border border-[#16345a] bg-[#061a35] shadow-[0_16px_38px_rgba(8,31,65,0.13)]">
             {faqItems.slice(0, 6).map((item) => <details key={item.question} className="group border-b border-white/10 px-5 last:border-0 open:bg-white/[0.025]"><summary className="flex cursor-pointer list-none items-center gap-4 py-5 text-sm font-semibold leading-6 text-[#79dcb7] transition-colors hover:text-[#9be8ca]"><span className="grid h-7 w-7 shrink-0 place-items-center rounded-lg border border-[#79dcb7]/30 text-lg leading-none transition duration-200 group-open:rotate-45 group-open:bg-[#79dcb7]/10">+</span>{item.question}</summary><p className="pb-5 pl-11 pr-2 text-sm leading-7 text-slate-300">{item.answer}</p></details>)}

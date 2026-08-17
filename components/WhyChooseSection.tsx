@@ -13,7 +13,8 @@ export function WhyChooseSection() {
       <Image src="/images/reseller-cinema.webp" alt="" fill className="object-cover opacity-[0.10]" sizes="100vw" />
       <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,26,53,0.35),rgba(6,26,53,0.78))]" />
       <Container className="relative">
-        <h2 className="text-center text-3xl font-extrabold tracking-[-0.025em] md:text-4xl">Why Choose Our Server</h2>
+        <h2 className="text-center text-3xl font-extrabold tracking-[-0.025em] md:text-4xl">Why Choose krooz tv for IPTV?</h2>
+        <p className="mx-auto mt-5 max-w-3xl text-center text-base leading-8 text-slate-300">krooz tv focuses on flexible access to live and on-demand entertainment, straightforward setup, compatible-device guidance, and visible support when questions arise.</p>
         <div className="mt-14 grid gap-x-12 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
           {whyChooseItems.map((item) => (
             <article key={item.title} className="text-center">

@@ -5,12 +5,18 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 import { WhatsAppLink } from "@/components/WhatsAppLink";
-import { clientHelpWhatsAppUrl, navItems, secondaryNavItems } from "@/data/site";
 
-export function MobileNav() {
+type MobileNavProps = {
+  items: ReadonlyArray<{
+    href: string;
+    label: string;
+  }>;
+  clientHelpWhatsAppUrl: string;
+};
+
+export function MobileNav({ items, clientHelpWhatsAppUrl }: MobileNavProps) {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const items = [...navItems, ...secondaryNavItems];
 
   return (
     <div className="xl:hidden">

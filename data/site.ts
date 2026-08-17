@@ -218,34 +218,34 @@ export const coverageRegions = [
 
 export const whyChooseItems = [
   {
-    title: "Thousands of Channels",
+    title: "Live and on-demand viewing",
     description:
-      "A clearer channel-first experience for viewers who want quick access to everyday entertainment and events."
+      "Access live television alongside movies and series through one IPTV subscription, subject to plan and content availability."
   },
   {
-    title: "Video On Demand",
+    title: "Flexible plan options",
     description:
-      "Movies and series are presented as a meaningful part of the platform, not as an afterthought."
+      "Choose from monthly and longer subscription periods without changing the core device and entertainment experience."
   },
   {
-    title: "Watch on Any Device",
+    title: "Broad device compatibility",
     description:
-      "The site is structured around real device categories so setup feels easier from the first visit."
+      "Use compatible Smart TVs, streaming devices, phones, tablets, computers, or IPTV players with the supplied setup details."
   },
   {
-    title: "World Class Support",
+    title: "Setup and customer support",
     description:
-      "Support, tutorials, and contact routes remain visible across the site to lower friction."
+      "Tutorials and support routes help you identify a compatible player, complete setup, and resolve common playback questions."
   },
   {
-    title: "Safe & Secure Payment",
+    title: "Quality-ready streaming",
     description:
-      "Conversion sections are written to support a clean checkout journey once approved payment details are connected."
+      "HD, FHD, and 4K availability depends on the selected content, your device, and the quality of your internet connection."
   },
   {
-    title: "Clear Service Policies",
+    title: "Clear service information",
     description:
-      "Legal and policy pages are included so refund and rights information can be completed in one place."
+      "Plan details, setup resources, support information, and service policies are easy to find before you subscribe."
   }
 ];
 
@@ -262,24 +262,24 @@ export const deviceItems = [
 
 export const streamingItems = [
   {
-    title: "HD, FHD, and 4K-ready plans",
+    title: "HD, FHD, and 4K-ready viewing",
     description:
-      "The site supports quality-focused messaging without relying on exact technical claims that are not yet approved."
+      "Available picture quality depends on the program, subscription, device capabilities, player settings, and internet connection."
   },
   {
-    title: "Fast channel access",
+    title: "A stable internet connection",
     description:
-      "Emphasize responsive browsing and a smoother viewing experience instead of quoting unverified switching speeds."
+      "A consistent wired or strong Wi-Fi connection helps reduce interruptions when streaming live and on-demand content."
   },
   {
-    title: "Library updates",
+    title: "Compatible player setup",
     description:
-      "Communicate active content maintenance in a concise, professional way that feels credible."
+      "Install a suitable IPTV app on your device, then enter the account or portal details provided for your subscription."
   },
   {
-    title: "Quick account delivery flow",
+    title: "Subscription delivery and help",
     description:
-      "Subscription messaging is designed around a faster post-purchase handoff once real fulfillment details are finalized."
+      "After choosing a plan, use the listed subscription channel to confirm account delivery, setup instructions, and support options."
   }
 ];
 
@@ -314,12 +314,12 @@ export const faqItems = [
   {
     question: "Can one subscription be used on more than one device?",
     answer:
-      "Multi-device use depends on the subscription option you choose. The site is structured so connection details can be clarified on the plans page or during support."
+      "Multi-device use depends on the subscription option you choose. Review the plans page or contact krooz tv support to confirm the number of connections before subscribing."
   },
   {
     question: "What is included with a subscription?",
     answer:
-      "The service is presented around live TV, movies, series, and sports, with setup support and device compatibility guidance included in the overall experience."
+      "krooz tv subscriptions provide access to live TV and on-demand entertainment such as movies, series, and sports, with availability depending on the selected plan."
   },
   {
     question: "Can I get a trial?",
@@ -329,17 +329,17 @@ export const faqItems = [
   {
     question: "How is subscription information delivered?",
     answer:
-      "The site explains the account delivery journey at a high level, but operational details should be confirmed through the support or contact process."
+      "After selecting a plan, use the listed subscription contact channel to confirm account delivery and receive the setup details for your compatible IPTV player."
   },
   {
     question: "Which devices are supported?",
     answer:
-      "The current site architecture highlights Smart TV, Android TV, phones, tablets, Fire TV devices, MAG devices, computers, and IPTV player apps."
+      "Compatible options include Smart TV, Android TV, phones, tablets, Fire TV devices, MAG devices, Windows and Mac computers, and supported IPTV player apps."
   },
   {
     question: "Do I need satellite equipment?",
     answer:
-      "No satellite dish messaging is used in the new experience. The service is presented as an internet-based streaming setup."
+      "No satellite dish is required for IPTV. You need a suitable internet connection, a compatible device and player, and active subscription details."
   },
   {
     question: "Where can I get setup help?",
