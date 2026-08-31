@@ -9,6 +9,8 @@ import { replaceCable } from "./blog/can-iptv-replace-cable";
 import { sportsComparison } from "./blog/iptv-services-sports-fans";
 import { compatibleDevices } from "./blog/iptv-compatible-devices";
 import { internetSpeed } from "./blog/iptv-internet-speed";
+import { fixBuffering } from "./blog/how-to-fix-iptv-buffering";
+import { bestPlayerApps } from "./blog/best-iptv-player-apps";
 import { siteUrl } from "./site";
 
 export type { BlogArticle, BlogContentBlock } from "./blog-types";
@@ -28,7 +30,9 @@ export const blogArticles: BlogArticle[] = [
   replaceCable,
   sportsComparison,
   compatibleDevices,
-  internetSpeed
+  internetSpeed,
+  fixBuffering,
+  bestPlayerApps
 ];
 
 export function getArticleWordCount(article: BlogArticle) {
