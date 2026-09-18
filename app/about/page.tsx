@@ -5,7 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { siteUrl } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "about us",
+  title: "About krooz tv IPTV",
   description:
     "Learn how krooz tv presents its streaming service, support philosophy, and IPTV-focused customer journey.",
   alternates: {
@@ -18,16 +18,16 @@ export default function AboutPage() {
     <>
       <PageHero
         eyebrow="About krooz tv"
-        title="A clearer service story built around viewing, setup, and support."
-        description="This page keeps the brand presentation concise and professional without inventing founding dates, company awards, customer counts, or partnerships that are not confirmed."
+        title="IPTV subscriptions with setup guidance built into the journey."
+        description="krooz tv provides subscription options for live and on-demand viewing, with device guidance, tutorials, and a direct help path for setup questions."
         aside={
           <>
             <strong className="block text-lg font-semibold text-white">
-              Brand direction
+              What the site covers
             </strong>
             <p className="mt-3 text-sm leading-7 text-mist">
-              krooz tv is positioned here as a modern streaming service with a strong
-              focus on subscription clarity, device flexibility, and accessible support.
+              Compare viewing periods, check compatible devices, follow setup guidance,
+              and contact the service through the published WhatsApp channel.
             </p>
           </>
         }
@@ -38,15 +38,15 @@ export default function AboutPage() {
           {[
             [
               "Service clarity",
-              "The website is designed to help customers understand what is offered without forcing them through cluttered or repetitive sales messaging."
+              "Subscription periods and current prices are published together so visitors can compare the available options before making contact."
             ],
             [
               "Setup confidence",
-              "Tutorials, device compatibility, and support information are treated as core parts of the experience."
+              "Tutorials cover device compatibility, player selection, network preparation, and common playback troubleshooting."
             ],
             [
-              "Global viewing mindset",
-              "The information architecture supports international audiences and multi-device use in a cleaner, more modern format."
+              "Service limits",
+              "Content, picture quality, connections, and device support can vary. Confirm the current details for your location and setup before subscribing."
             ]
           ].map(([title, description]) => (
             <article

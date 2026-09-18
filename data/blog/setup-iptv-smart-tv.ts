@@ -25,6 +25,7 @@ export const smartTvSetup: BlogArticle = {
       "Your Wi-Fi name and password, or an Ethernet cable and any adapter supported by the television."
     ]),
     p("Do not begin by searching the store for the first app containing IPTV. Some apps are only players and include no channels; others imitate established names. Confirm whether your provider has its own application or recommends a neutral player. Check the publisher, reviews, privacy disclosures, update date and permissions. A television player should not need access to contacts, microphone or unrelated personal data. When in doubt, ask the provider for a direct official store listing."),
+    link("/blog/best-iptv-player-apps", "Compare IPTV player apps for your platform", "Use platform support, account method, guide features, and accessibility needs to narrow the options before installing."),
     h2("Step-by-step smart TV IPTV setup"),
     h3("Step 1: update the television"),
     p("Open the TV's settings and install available system updates before adding the app. Updates can refresh security certificates, video decoders, app-store compatibility and digital rights management components. Restart after the update even if the television does not demand it. If the model has not received updates for years, record that fact. An external streaming device may be safer and faster than depending on an abandoned smart-TV platform."),
@@ -82,6 +83,7 @@ export const smartTvSetup: BlogArticle = {
     p("Check the subscription status and type credentials carefully. Confirm device or stream limits and remove an obsolete registered device through the account portal if allowed. Set date and time automatically because incorrect clocks can break secure connections. Try the provider's official website from another device. If the account works there, capture the exact TV error without exposing the password and contact support."),
     h3("Channels load but buffer"),
     p("Restart the app, television and router in an orderly way, then test one device over Ethernet. Stop downloads and other streams. Compare several channels because a single source may be impaired. Avoid repeatedly changing DNS, decoder, VPN and buffer settings together; that destroys useful evidence. Record whether the spinner appears at fixed intervals, only at peak time or only on high-bitrate channels."),
+    link("/blog/how-to-fix-iptv-buffering", "Work through the complete buffering checklist", "Run controlled device, Wi-Fi, route, player, and account tests while keeping a record of each result."),
     h3("Sound plays but the screen is blank"),
     p("This often indicates a codec, decoder or rights-management compatibility issue. Update the app and TV, switch between documented hardware and software decoder modes, and test another channel. An old television may decode H.264 but not the HEVC profile used by a particular feed. An external current-generation player can add codec support. Do not assume more broadband will fix video that the hardware cannot decode."),
     h3("The guide is wrong or empty"),

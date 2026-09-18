@@ -3,10 +3,11 @@ import type { Metadata } from "next";
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
 import { SectionHeading } from "@/components/SectionHeading";
-import { supportCards, tutorialCategories, siteUrl } from "@/data/site";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
+import { clientHelpWhatsAppUrl, supportCards, tutorialCategories, siteUrl } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "support",
+  title: "IPTV Setup and Account Support",
   description:
     "See how krooz tv support, setup guidance, and customer assistance are organized across the site.",
   alternates: {
@@ -19,16 +20,16 @@ export default function SupportPage() {
     <>
       <PageHero
         eyebrow="Support"
-        title="Support is structured to feel visible before and after signup."
-        description="This page explains how assistance can be organized for setup, subscription questions, and general help without inventing contact details that have not been approved yet."
+        title="Get help with your account, device setup, or playback."
+        description="Start with the tutorials and troubleshooting guides, then use the client help channel with your device and connection details if the issue continues."
         aside={
           <>
             <strong className="block text-lg font-semibold text-white">
-              Ready for real contact channels
+              Faster troubleshooting
             </strong>
             <p className="mt-3 text-sm leading-7 text-mist">
-              Add your final email address, ticket flow, chat widget, or other business
-              support channel here when it is confirmed.
+              Note the device model, player app, network type, affected content, error
+              message, and troubleshooting steps you have already tried.
             </p>
           </>
         }
@@ -45,6 +46,14 @@ export default function SupportPage() {
               <p className="mt-3 text-sm leading-7 text-mist">{item.description}</p>
             </article>
           ))}
+        </Container>
+      </section>
+
+      <section className="bg-white py-16">
+        <Container className="text-center">
+          <h2 className="text-3xl font-semibold text-[#102f5b]">Still need help?</h2>
+          <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">Use the published client help channel after checking the relevant setup or troubleshooting guide.</p>
+          <WhatsAppLink href={clientHelpWhatsAppUrl} className="mt-6 inline-flex rounded-lg bg-[#102f5b] px-6 py-3 text-sm font-bold text-white">Contact client help</WhatsAppLink>
         </Container>
       </section>
 

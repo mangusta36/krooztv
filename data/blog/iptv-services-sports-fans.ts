@@ -142,7 +142,7 @@ export const sportsComparison: BlogArticle = {
   cta: {
     title: "Build your sports checklist before choosing",
     description: "Compare the current krooz tv plan against your exact teams, broadcasters, location, devices and simultaneous viewing needs, then verify open questions with support.",
-    href: "/plans",
+    href: "/subscription",
     label: "Review plans"
   }
 };

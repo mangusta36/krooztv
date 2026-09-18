@@ -13,7 +13,7 @@ export function PricingPreview() {
             description="No pricing data was available in the provided project files, so the plans page focuses on comparison structure and next steps without inventing amounts."
             align="left"
           />
-          <ButtonLink href="/plans">Open plan details</ButtonLink>
+          <ButtonLink href="/subscription">Open plan details</ButtonLink>
         </div>
       </Container>
     </section>

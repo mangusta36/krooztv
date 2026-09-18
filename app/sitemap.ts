@@ -10,10 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-08-14")
     },
     {
-      url: `${siteUrl}/plans`,
-      lastModified: new Date("2026-08-14")
-    },
-    {
       url: `${siteUrl}/subscription`,
       lastModified: new Date("2026-08-14")
     },
@@ -30,10 +26,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date("2026-08-14")
     },
     {
-      url: `${siteUrl}/reviews`,
-      lastModified: new Date("2026-08-14")
-    },
-    {
       url: `${siteUrl}/support`,
       lastModified: new Date("2026-08-14")
     },
@@ -41,22 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${siteUrl}/contact`,
       lastModified: new Date("2026-08-14")
     },
-    {
-      url: `${siteUrl}/privacy`,
-      lastModified: new Date("2026-08-14")
-    },
-    {
-      url: `${siteUrl}/terms`,
-      lastModified: new Date("2026-08-14")
-    },
-    {
-      url: `${siteUrl}/refund-policy`,
-      lastModified: new Date("2026-08-14")
-    },
-    {
-      url: `${siteUrl}/dmca`,
-      lastModified: new Date("2026-08-14")
-    }
   ];
 
   const blogRoutes: MetadataRoute.Sitemap = [

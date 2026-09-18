@@ -47,6 +47,7 @@ export const iptvEquipment: BlogArticle = {
     link("/blog/iptv-compatible-devices", "Complete IPTV device compatibility guide", "Compare smart TVs, streaming sticks, boxes, mobile devices and computers by apps, updates and playback strengths."),
     h3("6. Account and authorized service"),
     p("Hardware cannot supply programming on its own. You need a licensed IPTV service, broadcaster app, league service or other authorized source. A provider may use a branded login, activation code, playlist, portal or compatible player. If you are comparing a service such as [krooz tv](/), keep those details private. Paying for a neutral player app does not usually buy channels, and buying a service does not always cover a separate player license. Include both in the setup budget."),
+    link("/blog/best-iptv-player-apps", "Choose an IPTV player for your existing hardware", "Compare players by operating system, login support, interface, and viewing workflow rather than buying another device first."),
     h2("Essential versus optional equipment"),
     table(
       ["Item", "Essential when", "Optional benefit"],
@@ -91,6 +92,7 @@ export const iptvEquipment: BlogArticle = {
     h3("An older television"),
     p("Keep the panel if its picture and HDMI input are sound. Add a certified player supported by the IPTV provider and power it correctly. The external device supplies current apps and decoding; the television becomes a display. If the screen lacks HDMI, converter chains can create rights-management and quality problems, and replacing the display may be more sensible than stacking adapters."),
     h2("What equipment will not fix IPTV buffering?"),
+    link("/blog/how-to-fix-iptv-buffering", "Diagnose IPTV buffering before buying equipment", "Test the device, network, route, player, and source methodically so any purchase addresses a measured limitation."),
     p("A new television cannot fix an overloaded provider server. A premium router cannot overcome an ISP outage. Faster broadband cannot make unsupported video decode on an old chipset. A VPN may add overhead and does not create content rights. Diagnose the chain before buying: compare channels, apps, devices, Ethernet and time periods. Match the remedy to the layer that fails."),
     ol([
       "Test the affected service and a well-established video app on the same device.",

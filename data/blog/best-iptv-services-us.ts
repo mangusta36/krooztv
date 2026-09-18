@@ -105,7 +105,7 @@ export const bestIptvServices: BlogArticle = {
   cta: {
     title: "Compare plans after you finish the checklist",
     description: "Review krooz tv subscription terms and contact support to confirm current channels, device compatibility, connections and trial details for your household.",
-    href: "/plans",
+    href: "/subscription",
     label: "View plans"
   }
 };

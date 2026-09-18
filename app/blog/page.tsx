@@ -11,7 +11,7 @@ import { generalWhatsAppUrl, siteUrl } from "@/data/site";
 const blogUrl = `${siteUrl}${blogPath}`;
 
 export const metadata: Metadata = {
-  title: "blog",
+  title: "IPTV Guides and Tutorials",
   description: blogDescription,
   alternates: {
     canonical: blogUrl
@@ -45,15 +45,14 @@ const blogSchema = {
   description: blogDescription,
   url: blogUrl,
   publisher: {
-    "@type": "Organization",
-    name: "krooz tv",
-    url: siteUrl
+    "@id": `${siteUrl}/#organization`
   }
 };
 
 const breadcrumbSchema = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
+  "@id": `${blogUrl}/#breadcrumb`,
   itemListElement: [
     {
       "@type": "ListItem",

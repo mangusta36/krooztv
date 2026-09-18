@@ -101,6 +101,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
+    "@id": `${articleUrl}/#article`,
     headline: article.title,
     description: article.metaDescription,
     image: `${siteUrl}${article.featuredImage}`,
@@ -108,17 +109,11 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
     datePublished: article.publishedAt,
     dateModified: article.updatedAt ?? article.publishedAt,
     author: {
-      "@type": "Organization",
+      "@id": `${siteUrl}/#organization`,
       name: article.author.name
     },
     publisher: {
-      "@type": "Organization",
-      name: "krooz tv",
-      url: siteUrl,
-      logo: {
-        "@type": "ImageObject",
-        url: `${siteUrl}/images/og-image.svg`
-      }
+      "@id": `${siteUrl}/#organization`
     },
     articleSection: article.category,
     keywords: article.keywords.join(", "),
@@ -135,6 +130,7 @@ export default async function BlogArticlePage({ params }: BlogArticlePageProps) 
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
+    "@id": `${articleUrl}/#breadcrumb`,
     itemListElement: [
       {
         "@type": "ListItem",

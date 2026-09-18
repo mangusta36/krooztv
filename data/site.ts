@@ -39,7 +39,7 @@ export const footerGroups = [
   {
     title: "Services",
     links: [
-      { href: "/plans", label: "IPTV Subscription" },
+      { href: "/subscription", label: "IPTV Subscription" },
       { href: "/reseller", label: "Reseller IPTV" },
       { href: "/blog", label: "Blog" },
       { href: "/tutorials", label: "Installation Tutorials" }
@@ -370,16 +370,16 @@ export const contactOptions = [
   {
     title: "General inquiries",
     description:
-      "Add your approved business email, ticketing flow, or live chat connection here when ready."
+      "Ask a general question through the krooz tv WhatsApp contact channel."
   },
   {
     title: "Subscription help",
     description:
-      "Use this area for approved checkout, billing, or activation contact details later."
+      "Confirm current plan details, request a trial, or ask about account delivery before subscribing."
   },
   {
     title: "Technical support",
     description:
-      "Use this section for the final support channel you want customers to rely on for setup and playback questions."
+      "Share your device, player, connection type, and the playback issue through the client help channel."
   }
 ];

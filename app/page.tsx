@@ -64,6 +64,7 @@ const faqSchema = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": `${siteUrl}/#organization`,
   name: "krooz tv",
   url: siteUrl,
   logo: `${siteUrl}/icon.svg`,
@@ -73,9 +74,11 @@ const organizationSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
+  "@id": `${siteUrl}/#website`,
   name: "krooz tv",
   url: siteUrl,
-  description: homeDescription
+  description: homeDescription,
+  publisher: { "@id": `${siteUrl}/#organization` }
 };
 
 export default function HomePage() {

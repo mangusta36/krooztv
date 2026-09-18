@@ -15,7 +15,7 @@ export function FinalCta() {
             </h2>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row">
-            <ButtonLink href="/plans">See plans</ButtonLink>
+            <ButtonLink href="/subscription">See plans</ButtonLink>
             <ButtonLink href="/support" variant="secondary">
               Contact support
             </ButtonLink>

@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
-import { siteUrl } from "@/data/site";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
+import { resellerWhatsAppUrl, siteUrl } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "IPTV reseller",
@@ -18,16 +19,16 @@ export default function ResellerPage() {
     <>
       <PageHero
         eyebrow="Reseller program"
-        title="A reseller page that feels more professional and easier to trust."
-        description="This page explains the reseller path in original language without inventing earnings, commissions, or guarantees that are not confirmed in the project."
+        title="Ask about the krooz tv reseller path."
+        description="The reseller route is separate from a standard viewing subscription. Use the dedicated contact channel to request the current terms before making a decision."
         aside={
           <>
             <strong className="block text-lg font-semibold text-white">
-              What to add later
+              Confirm before joining
             </strong>
             <p className="mt-3 text-sm leading-7 text-mist">
-              Approved pricing, onboarding steps, partner requirements, and support
-              details can be added here when the business terms are finalized.
+              Ask for current pricing, onboarding steps, account tools, partner
+              requirements, support scope, and applicable policies in writing.
             </p>
           </>
         }
@@ -38,15 +39,15 @@ export default function ResellerPage() {
           {[
             [
               "Clear positioning",
-              "Explain who the reseller route is for and how it differs from a standard subscription flow."
+              "This route is for people evaluating a reseller relationship. Viewers who only need access should use the standard subscription page."
             ],
             [
               "Support-first onboarding",
-              "Make room for setup guidance, account creation steps, and policy information without clutter."
+              "Use the dedicated WhatsApp request to discuss the current onboarding process and available support."
             ],
             [
-              "Scalable layout",
-              "The page is ready for forms, comparison tables, or a future client-area connection."
+              "No earnings promises",
+              "Evaluate the written terms, costs, responsibilities, service limitations, and customer-support obligations before committing."
             ]
           ].map(([title, description]) => (
             <article
@@ -57,6 +58,13 @@ export default function ResellerPage() {
               <p className="mt-3 text-sm leading-7 text-mist">{description}</p>
             </article>
           ))}
+        </Container>
+      </section>
+      <section className="bg-white py-16">
+        <Container className="text-center">
+          <h2 className="text-3xl font-semibold text-[#102f5b]">Request current reseller information</h2>
+          <p className="mx-auto mt-4 max-w-2xl leading-8 text-slate-600">The dedicated channel opens with a reseller inquiry so the conversation stays separate from customer account support.</p>
+          <WhatsAppLink href={resellerWhatsAppUrl} className="mt-6 inline-flex rounded-lg bg-[#102f5b] px-6 py-3 text-sm font-bold text-white">Contact reseller support</WhatsAppLink>
         </Container>
       </section>
     </>

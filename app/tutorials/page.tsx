@@ -19,16 +19,16 @@ export default function TutorialsPage() {
     <>
       <PageHero
         eyebrow="Installation tutorials"
-        title="A tutorials hub built around real device categories."
-        description="This route turns installation guidance into a proper content hub for Smart TV, Fire TV, Android, iOS, computers, and MAG device setup."
+        title="IPTV setup, player, network, and troubleshooting guides."
+        description="Start with your device and player, then check network requirements and use the troubleshooting workflow if playback is unstable."
         aside={
           <>
             <strong className="block text-lg font-semibold text-white">
-              Content-ready layout
+              Choose the closest guide
             </strong>
             <p className="mt-3 text-sm leading-7 text-mist">
-              Each category card can later expand into a device-specific article,
-              walkthrough, or embedded step-by-step guide.
+              Confirm your exact device model and operating system before installing an
+              app or entering private account details.
             </p>
           </>
         }
@@ -56,7 +56,7 @@ export default function TutorialsPage() {
               Prepare the device, network, and app before installation.
             </h2>
           </div>
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-5">
             {[
               {
                 href: "/blog/setup-iptv-smart-tv",
@@ -72,6 +72,16 @@ export default function TutorialsPage() {
                 href: "/blog/iptv-equipment-requirements",
                 title: "Review IPTV equipment requirements",
                 description: "Separate essential broadband and playback hardware from optional network and audio upgrades."
+              },
+              {
+                href: "/blog/best-iptv-player-apps",
+                title: "Compare IPTV player apps",
+                description: "Choose a player by platform, login support, guide features, controls, and current app availability."
+              },
+              {
+                href: "/blog/how-to-fix-iptv-buffering",
+                title: "Troubleshoot buffering and freezing",
+                description: "Isolate device, Wi-Fi, internet-route, player, and provider causes one controlled test at a time."
               }
             ].map((guide) => (
               <article key={guide.href} className="rounded-[20px] border border-slate-200 bg-slate-50 p-6">

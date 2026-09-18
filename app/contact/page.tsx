@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 
 import { Container } from "@/components/Container";
 import { PageHero } from "@/components/PageHero";
-import { contactOptions, siteUrl } from "@/data/site";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
+import { clientHelpWhatsAppUrl, contactOptions, generalWhatsAppUrl, siteUrl } from "@/data/site";
 
 export const metadata: Metadata = {
-  title: "contact us",
+  title: "Contact krooz tv",
   description:
     "Review the krooz tv contact structure for general inquiries, subscription help, and technical assistance.",
   alternates: {
@@ -18,16 +19,16 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact us"
-        title="A dedicated contact page that is ready for your real business channels."
-        description="No phone numbers, emails, addresses, or chat claims are invented here. The page gives you a professional structure so approved contact details can be added later."
+        title="Contact krooz tv for subscription and setup help."
+        description="Use the published WhatsApp channel for plan questions, trial requests, account help, device setup, or playback troubleshooting."
         aside={
           <>
             <strong className="block text-lg font-semibold text-white">
-              Approved details only
+              Include useful details
             </strong>
             <p className="mt-3 text-sm leading-7 text-mist">
-              Replace the placeholders below with the exact channels you want customers
-              to use for sales, support, and technical assistance.
+              For technical help, include your device, IPTV player, connection type,
+              affected channel, and the time the issue occurred.
             </p>
           </>
         }
@@ -44,6 +45,12 @@ export default function ContactPage() {
               <p className="mt-3 text-sm leading-7 text-mist">{option.description}</p>
             </article>
           ))}
+        </Container>
+      </section>
+      <section className="bg-white py-16">
+        <Container className="flex flex-wrap justify-center gap-4">
+          <WhatsAppLink href={generalWhatsAppUrl} className="rounded-lg bg-[#102f5b] px-6 py-3 text-sm font-bold text-white">Ask about plans or a trial</WhatsAppLink>
+          <WhatsAppLink href={clientHelpWhatsAppUrl} className="rounded-lg border border-[#102f5b] px-6 py-3 text-sm font-bold text-[#102f5b]">Get account or setup help</WhatsAppLink>
         </Container>
       </section>
     </>
